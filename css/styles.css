@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+
+
+/*
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.text-wrapper{
+  text-align: center;
+}
+
+.headline{
+  font-size: 15rem;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  color: #f9ed69;
+  font-weight: 100;
+  line-height: .4;
+}
+
+.headline::first-letter{
+  font-size: 20rem;
+}
+
+.sub-headline{
+  font-size: 10rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.parallax{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overflow{
+  height: 200vh;
+} */
+
+/* ************************************************************************************************** */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body, html {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #667;
+  }
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+  width: 100%;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color: #667;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+
+}
+
+.section.img-test{
+  background-image: url('../images/ae-5.jpg');
+  /* background-image: url('../images/itachi.gif'); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 10px black;
+  text-transform: uppercase;
+}
+
+.section.img-test-2{
+  background-image: url('../images/ae-background-2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 10px black;
+  text-transform: uppercase;
+}
+
+.section.img-test-3{
+  background-image: url('../images/ae-9.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 10px black;
+  text-transform: uppercase;
+}
+
+
+.ptext .border.trans{
+  background-color: transparent;
+}
+
+
+
+  .pimg1{
+    background-image: url('../images/ae-background-1.jpg');
+    min-height: 100%;
+  }
+  .pimg2{
+    background-image: url('../images/ae-6.jpg');
+    min-height: 600px;
+  }
+  .pimg3{
+    background-image: url('../images/ae-background-3.jpg');
+    min-height: 100%;
+  }
+  .pimg4{
+    background-image: url('../images/ae-background-5.jpg');
+    min-height: 600px;
+  }
+
+
+  /* SOCIALS */
+
+  .social-icons {
+  list-style: none;
+  margin-bottom: 5.4rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  }
+
+  .social-icons i {
+  font-size: 2rem;
+  color: #2b2e4a;
+  padding: .8rem 2rem;
+  opacity: .5;
+  transition: color .5s;
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+  color: #e84545
+}
